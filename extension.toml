@@ -1,0 +1,7 @@
+id = "lydia"
+name = "Lydia Theme"
+version = "1.2.1"
+schema_version = 1
+authors = ["dnlytras <hi@dnlytras.com>"]
+repository = "https://github.com/dimitrisnl/lydia-zed-theme"
+description = "A dark color scheme built around cool blue-grays and vibrant accents."
