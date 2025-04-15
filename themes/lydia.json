@@ -4,6 +4,187 @@
   "author": "Dimitrios Lytras <hi@dnlytras.com>",
   "themes": [
     {
+      "appearance": "dark",
+      "name": "Lydia Dark Experimental",
+      "style": {
+        "background.appearance": "transparent",
+        "border": "#313244",
+        "border.variant": "#313244",
+        "border.focused": "#b4befe",
+        "border.selected": "#7aa2f7",
+        "border.transparent": "#a6e3a1",
+        "border.disabled": "#585b70",
+        "elevated_surface.background": "#1E212E",
+        "surface.background": "#222737",
+        "background": "#222737",
+        "element.background": "#1e212e",
+        "element.hover": "#6c70864d",
+        "element.active": "#7aa2f733",
+        "element.selected": "#31324499",
+        "element.disabled": "#6c7086",
+        "drop_target.background": "#45475a",
+        "ghost_element.background": "#00000000",
+        "ghost_element.hover": "#31324499",
+        "ghost_element.active": "#585b7080",
+        "ghost_element.selected": "#222737",
+        "ghost_element.disabled": "#6c7086",
+        "text": "#cdd6f4",
+        "text.muted": "#687395",
+        "text.placeholder": "#585b70",
+        "text.disabled": "#6c7086",
+        "text.accent": "#7aa2f7",
+        "icon": "#cdd6f4",
+        "icon.muted": "#7f849c",
+        "icon.disabled": "#ff",
+        "icon.placeholder": "#585b70",
+        "icon.accent": "#7aa2f7",
+        "status_bar.background": "#1e212e",
+        "title_bar.background": "#1e212e",
+        "toolbar.background": "#222737",
+        "tab_bar.background": "#1e212e",
+        "tab.inactive_background": "#1E212E",
+        "tab.active_background": "#222737",
+        "search.match_background": "#94e2d533",
+        "panel.background": "#1E212E",
+        "panel.focused_border": "#cdd6f4",
+        "pane.focused_border": "#cdd6f4",
+        "scrollbar.thumb.background": "#585b7080",
+        "scrollbar.thumb.hover_background": "#6c7086",
+        "scrollbar.thumb.border": "#585b7080",
+        "scrollbar.track.background": "#222737",
+        "scrollbar.track.border": "#cdd6f412",
+        "editor.foreground": "#cdd6f4",
+        "editor.background": "#222737",
+        "editor.gutter.background": "#222737",
+        "editor.subheader.background": "#181825",
+        "editor.active_line.background": "#cdd6f40d",
+        "editor.highlighted_line.background": null,
+        "editor.line_number": "#393F58",
+        "editor.active_line_number": "#656B87",
+        "editor.invisible": "#393F58",
+        "editor.wrap_guide": "#313244",
+        "editor.active_wrap_guide": "#313244",
+        "editor.document_highlight.read_background": "#a6adc829",
+        "editor.document_highlight.write_background": "#a6adc829",
+        "terminal.background": "#222737",
+        "terminal.foreground": "#cdd6f4",
+        "terminal.dim_foreground": "#7f849c",
+        "terminal.bright_foreground": "#cdd6f4",
+        "terminal.ansi.black": "#363b54",
+        "terminal.ansi.bright_black": "#363b54",
+        "terminal.ansi.red": "#f7768e",
+        "terminal.ansi.bright_red": "#f7768e",
+        "terminal.ansi.green": "#73daca",
+        "terminal.ansi.bright_green": "#41a6b5",
+        "terminal.ansi.yellow": "#e0af68",
+        "terminal.ansi.bright_yellow": "#e0af68",
+        "terminal.ansi.blue": "#7aa2f7",
+        "terminal.ansi.bright_blue": "#7aa2f7",
+        "terminal.ansi.magenta": "#bb9af7",
+        "terminal.ansi.bright_magenta": "#bb9af7",
+        "terminal.ansi.cyan": "#7dcfff",
+        "terminal.ansi.bright_cyan": "#7dcfff",
+        "terminal.ansi.white": "#787c99",
+        "terminal.ansi.bright_white": "#acb0d0",
+        "link_text.hover": "#89dceb",
+        "conflict": "#7aa2f7",
+        "conflict.border": "#7aa2f7",
+        "conflict.background": "#181825",
+        "created": "#a6e3a1",
+        "created.border": "#a6e3a1",
+        "created.background": "#181825",
+        "deleted": "#f38ba8",
+        "deleted.border": "#f38ba8",
+        "deleted.background": "#181825",
+        "error": "#f38ba8",
+        "error.border": "#f38ba8",
+        "error.background": "#181825",
+        "hidden": "#6c7086",
+        "hidden.border": "#6c7086",
+        "hidden.background": "#181825",
+        "hint": "#585b70",
+        "hint.border": "#585b70",
+        "hint.background": "#181825",
+        "ignored": "#6c7086",
+        "ignored.border": "#6c7086",
+        "ignored.background": "#181825",
+        "info": "#94e2d5",
+        "info.border": "#94e2d5",
+        "info.background": "#7aa2f766",
+        "modified": "#f9e2af",
+        "modified.border": "#f9e2af",
+        "modified.background": "#181825",
+        "predictive": "#585b70",
+        "predictive.border": "#585b70",
+        "predictive.background": "#181825",
+        "renamed": "#74c7ec",
+        "renamed.border": "#74c7ec",
+        "renamed.background": "#181825",
+        "success": "#a6e3a1",
+        "success.border": "#a6e3a1",
+        "success.background": "#181825",
+        "unreachable": "#f38ba8",
+        "unreachable.border": "#f38ba8",
+        "unreachable.background": "#181825",
+        "warning": "#fab387",
+        "warning.border": "#fab387",
+        "warning.background": "#181825",
+        "syntax": {
+          "comment": {
+            "color": "#5F6996",
+            "font_style": "italic"
+          },
+          "constant": {
+            "color": "#F0AC8B"
+          },
+          "string": {
+            "color": "#6eb4bf"
+          },
+          "number": {
+            "color": "#F0AC8B"
+          },
+          "keyword": {
+            "color": "#ca9ee6",
+            "font_style": "bold"
+          },
+          "operator": {
+            "color": "#d3b1c8"
+          },
+          "variable": {
+            "color": "#C0CAF5"
+          },
+          "function": {
+            "color": "#8caaee"
+          },
+          "class": {
+            "color": "#ca9ee6"
+          },
+          "type": {
+            "color": "#8caaee"
+          },
+          "property": {
+            "color": "#8caaee"
+          },
+          "punctuation": {
+            "color": "#687395"
+          },
+          "invalid": {
+            "color": "#FF5370"
+          },
+          "deprecated": {
+            "color": "#ca9ee6",
+            "font_style": "strikethrough"
+          },
+          "tag": {
+            "color": "#F0879A"
+          },
+          "attribute": {
+            "color": "#d3b1c8"
+          }
+        }
+      }
+    },
+    {
       "name": "Lydia Dark",
       "appearance": "dark",
       "style": {
